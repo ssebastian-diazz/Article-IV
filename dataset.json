@@ -894,19 +894,18 @@
           "rec_ids": [
             39
           ],
-          "beat": "Prácticamente idéntica a 2023 (similaridad textual de 46%): México mantiene un tipo de cambio totalmente flexible."
+          "beat": "Prácticamente idéntica a 2023: México mantiene un tipo de cambiototalmente flexible."
         },
         {
           "year": 2025,
           "rec_ids": [
             42
           ],
-          "beat": "Se repite una vez más, con la similaridad textual más alta de todo el dataset frente al año anterior (51%)."
+          "beat": "Se repite una vez más."
         }
       ],
       "conclusiones": [
         "El FMI hizo esta misma recomendación en 10 de los 11 años analizados (todos menos 2021 y 2022, años en que el tema quedó implícito en la discusión de tasa).",
-        "La recomendación de 2025 y la de 2024 tienen una similaridad textual de 51%, la más alta entre cualquier par de años en todo el dataset.",
         "En 9 de las 10 ocasiones hay una cita textual de las autoridades coincidiendo explícitamente; en 2016 no se encontró una declaración específica sobre este punto."
       ]
     },
@@ -940,7 +939,7 @@
           "rec_ids": [
             10
           ],
-          "beat": "Se repite casi el mismo patrón que 2017 (51% de similaridad textual, la segunda más alta del dataset): el FMI insiste en el espacio para bajar tasa gradualmente."
+          "beat": "Se repite casi el mismo patrón que 2017: el FMI insiste en el espacio para bajar tasa gradualmente."
         },
         {
           "year": 2019,
@@ -1005,7 +1004,6 @@
       "conclusiones": [
         "De las 22 recomendaciones de esta categoría, 14 quedaron en 'Acepta / implementa' y 8 en un nivel de acuerdo menor — la proporción de fricción más alta de las cinco categorías.",
         "2020 es el único año con 4 recomendaciones de tasa en el mismo Article IV, y las autoridades usaron la frase textual 'dejando menos margen para maniobrar' para matizar la petición de más recortes del FMI.",
-        "Las recomendaciones de 2017 y 2018 tienen 51% de similaridad textual entre sí, y en ambos años las autoridades respondieron sin comprometerse a una fecha de baja de tasa."
       ]
     },
     "Comunicación": {
@@ -1058,7 +1056,7 @@
           "rec_ids": [
             41
           ],
-          "beat": "Tercer rechazo con el argumento casi idéntico a 2024 (32% de similaridad textual con el año anterior): mismo riesgo de credibilidad citado, misma alternativa ofrecida (comunicación directa y encuestas)."
+          "beat": "Tercer rechazo con el argumento casi idéntico a 2024: mismo riesgo de credibilidad citado, misma alternativa ofrecida (comunicación directa y encuestas)."
         }
       ],
       "conclusiones": [
@@ -1082,7 +1080,7 @@
           "rec_ids": [
             27
           ],
-          "beat": "El FMI insiste con fraseo casi idéntico (46% de similaridad textual con 2020, la cuarta más alta del dataset). Las autoridades responden que las revisiones de marco 'se conducen mejor en una frecuencia predeterminada y regular' y podrían considerarse una vez superado el choque de COVID — sigue sin haber compromiso."
+          "beat": "El FMI insiste con fraseo casi idéntico. Las autoridades responden que las revisiones de marco 'se conducen mejor en una frecuencia predeterminada y regular' y podrían considerarse una vez superado el choque de COVID — sigue sin haber compromiso."
         },
         {
           "year": 2023,
@@ -1094,7 +1092,6 @@
       ],
       "conclusiones": [
         "El nivel de acuerdo pasa de rechazo razonado (2020) a no-compromiso (2021) a aceptación parcial (2023) — nunca llega a aceptación plena en los 3 años que aparece.",
-        "2020 y 2021 tienen 46% de similaridad textual entre sí — la cuarta más alta del dataset — porque el FMI pide prácticamente lo mismo dos años seguidos y recibe la misma resistencia.",
         "La 'aceptación' de 2023 es solo parcial: Banxico acepta hacer una revisión interna de sus operaciones, pero rechaza explícitamente la petición de transparencia sobre la trayectoria de tasa incluida en la misma recomendación."
       ]
     },
