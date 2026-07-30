@@ -23,10 +23,10 @@
   --agree-4: #C8102E;
   --agree-5: #B8B6B2;
 
-  --font-display: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
-  --font-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
-  --font-numeric: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  --font-display: 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Consolas', 'Lucida Console', 'Courier New', sans-serif;
+  --font-numeric: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif;
 
   --wrap-max: 1120px;
 }
