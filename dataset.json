@@ -742,8 +742,8 @@
       "body": "Long-term inflation expectations (5--8-year horizon) remained anchored throughout the post-pandemic inflationary episode as a result of the central bank's decisive policy response to higher inflation. However, nearer-term inflation expectations remain close to the higher end of Banxico's variability range. Staff analysis (Annex X) suggests that shortterm inflation expectations are an important determinant of inflation dynamics. As such, clear monetary policy communication will be critical to continue to foster such forward-looking pricesetting behavior and bring inflation and inflation expectations back to target. Options to enhance communication could include a) publishing transcripts of the monetary policy meetings with a oneyear lag (instead of three) to increase their relevance, b) providing greater information on the assumptions---including the policy path---that underpin the authorities' projections while making clear that these are forecasts and not policy commitments (Casiraghi and Perez 2022), and c) further tailoring central bank communication to a broader audience. A clear and credible fiscal consolidation would also help anchor inflation expectations.",
       "sub_bullets": [],
       "category": "Comunicación",
-      "agreement_label": "Acepta parcialmente",
-      "agreement_rationale": "Banxico rechaza la publicación de escenarios alternativos o trayectorias explícitas por riesgo a la credibilidad, pero sí destaca avances concretos alternativos (comunicación directa, encuestas de expectativas del consumidor) — aceptación parcial con una alternativa propia.",
+      "agreement_label": "Rechaza o defiende postura contraria",
+      "agreement_rationale": "Mismo patrón que 2022 y 2025: Banxico rechaza explícitamente publicar escenarios alternativos o trayectorias de tasa, citando riesgo a la credibilidad, y defiende en su lugar su propio enfoque (comunicación directa, encuestas de expectativas).",
       "category_evidence": [
         "enhancing Banxico's communication toolkit"
       ],
@@ -803,8 +803,8 @@
         "Tailoring messages to different audiences (e.g., market analysts, the general public) through engagement and education to help guide the broader formation of expectations. Advancing plans to expand household surveys would provide insights into the broader population's understanding of monetary policy and inflation."
       ],
       "category": "Comunicación",
-      "agreement_label": "Acepta parcialmente",
-      "agreement_rationale": "Valoran la importancia de desarrollar su estrategia de comunicación, pero advierten explícitamente que publicar escenarios alternativos o guía explícita de tasa podría dañar la flexibilidad y credibilidad de la política monetaria.",
+      "agreement_label": "Rechaza o defiende postura contraria",
+      "agreement_rationale": "Tercera vez que el FMI pide publicar escenarios o trayectoria de tasa (2022, 2024, 2025) y tercera vez que Banxico lo rechaza con el mismo argumento: riesgo de que el mercado lo lea como una promesa y dañe la credibilidad. Defiende en su lugar la comunicación directa y las encuestas de expectativas.",
       "category_evidence": [
         "enhance Banxico's communication tools"
       ],
@@ -1009,7 +1009,7 @@
       ]
     },
     "Comunicación": {
-      "resumen": "El tema con más fricción y menos resuelto del dataset. En los 6 años que aparece, Banxico nunca da una aceptación plena sin matices: cada vez rechaza o condiciona al menos una parte específica de lo pedido — casi siempre la publicación explícita de la trayectoria de tasa o de escenarios alternativos.",
+      "resumen": "El tema más conflictivo del dataset. Ningún año tiene aceptación plena, y en 3 de los 6 años (2022, 2024 y 2025) Banxico rechaza explícitamente el mismo punto específico —publicar la trayectoria de tasa o escenarios alternativos— usando prácticamente el mismo argumento cada vez: el riesgo de que el mercado lo lea como una promesa y eso dañe la credibilidad.",
       "arco": [
         {
           "year": 2017,
@@ -1030,41 +1030,41 @@
           "rec_ids": [
             26
           ],
-          "beat": "Primera propuesta concreta: publicar la trayectoria esperada de tasa. Las autoridades responden textualmente que 'publicar la trayectoria de tasas necesitaría una evaluación cuidadosa' por los riesgos a la credibilidad."
+          "beat": "Primera propuesta concreta: publicar la trayectoria esperada de tasa. Las autoridades responden con cautela, no con rechazo directo: 'publicar la trayectoria de tasas necesitaría una evaluación cuidadosa' de los riesgos a la credibilidad."
         },
         {
           "year": 2022,
           "rec_ids": [
             31
           ],
-          "beat": "El FMI pide explícitamente publicar la trayectoria de tasa que sustenta su pronóstico. Las autoridades lo rechazan de frente: declaran textualmente que la situación 'no era apropiada para adoptar forward guidance explícito que implique publicar un pronóstico de tasa de interés', prefiriendo un enfoque dependiente de datos."
+          "beat": "Primer rechazo explícito de la serie: las autoridades declaran que la situación 'no era apropiada para adoptar forward guidance explícito que implique publicar un pronóstico de tasa de interés', prefiriendo un enfoque dependiente de datos."
         },
         {
           "year": 2023,
           "rec_ids": [
             34
           ],
-          "beat": "El FMI pide, otra vez, más transparencia sobre la trayectoria de tasa dentro de una revisión estratégica interna. Las autoridades aceptan hacer la revisión interna, pero declaran textualmente que 'no planean entrar en un debate público sobre publicar una trayectoria de tasa'."
+          "beat": "El FMI empaqueta la petición de transparencia junto con una revisión interna. Banxico acepta la revisión, pero repite el rechazo puntual: 'no planean entrar en un debate público sobre publicar una trayectoria de tasa'."
         },
         {
           "year": 2024,
           "rec_ids": [
             38
           ],
-          "beat": "El FMI regresa a pedir más detalle sobre supuestos y trayectoria de tasa. Las autoridades evitan publicar escenarios alternativos por riesgo a la credibilidad, y en su lugar destacan avances propios: comunicación directa con el público y encuestas de expectativas del consumidor."
+          "beat": "Segundo rechazo casi textual: 'evitan publicar análisis de escenarios alternativos... una desviación de esa trayectoria podría dañar severamente la credibilidad'. En su lugar destacan comunicación directa con el público y encuestas de expectativas del consumidor."
         },
         {
           "year": 2025,
           "rec_ids": [
             41
           ],
-          "beat": "Se repite básicamente la misma solicitud que en 2021 y 2022 (32% de similaridad textual con 2024). Las autoridades responden citando el mismo riesgo de siempre: publicar escenarios o guía explícita de tasa 'podría ser perjudicial para la flexibilidad y credibilidad' de la política monetaria."
+          "beat": "Tercer rechazo con el argumento casi idéntico a 2024 (32% de similaridad textual con el año anterior): mismo riesgo de credibilidad citado, misma alternativa ofrecida (comunicación directa y encuestas)."
         }
       ],
       "conclusiones": [
-        "De las 6 recomendaciones de esta categoría, ninguna tiene un nivel de acuerdo de 'Acepta / implementa' sin matices — es la única categoría de las cinco donde eso ocurre.",
-        "En 2022, 2023 y 2025 el rechazo se concentra en el mismo punto específico: publicar la trayectoria de tasa o escenarios alternativos, citando el riesgo de que el mercado lo lea como una promesa.",
-        "2017 es el único año donde la respuesta va en dirección contraria a lo pedido: el FMI sugiere comunicación más enfocada, y las autoridades responden que preferían dar más detalle, no menos."
+        "De las 6 recomendaciones de esta categoría, 4 son 'Rechaza o defiende postura contraria' y ninguna es 'Acepta / implementa' sin matices — el patrón más consistente de resistencia en todo el dataset.",
+        "2022, 2024 y 2025 usan prácticamente el mismo argumento para rechazar: publicar trayectoria o escenarios de tasa arriesga que el mercado lo lea como una promesa y dañe la credibilidad.",
+        "Cada vez que rechazan, ofrecen la misma alternativa propia: comunicación directa con el público y encuestas de expectativas del consumidor, en vez de trayectorias explícitas."
       ]
     },
     "Marco de Política Monetaria": {
