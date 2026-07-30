@@ -331,55 +331,8 @@ function renderStorylines() {
     .join("");
 }
 
-function findMaxSimilarity(cat, yearA, yearB) {
-  const pairs = DATA.similarity_pairs;
-  let max = 0;
-  pairs.forEach((p) => {
-    if (
-      p.category === cat &&
-      ((p.year_a === yearA && p.year_b === yearB) ||
-        (p.year_a === yearB && p.year_b === yearA))
-    ) {
-      if (p.similarity > max) max = p.similarity;
-    }
-  });
-  return max;
-}
-
 function renderStorylineCard(cat, story) {
   const color = CAT_COLORS[cat] || "#8A7B6C";
-  const years = story.arco.map((b) => b.year);
-
-  const nodeGap = 130;
-  const padX = 40;
-  const svgW = padX * 2 + Math.max(0, years.length - 1) * nodeGap;
-  const svgH = 90;
-  const cy = 40;
-
-  let svg = `<svg viewBox="0 0 ${svgW} ${svgH}" width="${svgW}" height="${svgH}" xmlns="http://www.w3.org/2000/svg">`;
-
-  for (let i = 0; i < years.length - 1; i++) {
-    const sim = findMaxSimilarity(cat, years[i], years[i + 1]);
-    const x1 = padX + i * nodeGap;
-    const x2 = padX + (i + 1) * nodeGap;
-    const strokeW = 1.5 + sim * 10;
-    const opacity = 0.25 + sim * 0.6;
-    svg += `<line x1="${x1}" y1="${cy}" x2="${x2}" y2="${cy}" stroke="${color}" stroke-width="${strokeW.toFixed(
-      1
-    )}" opacity="${opacity.toFixed(2)}"><title>Similaridad ${years[i]}→${
-      years[i + 1]
-    }: ${(sim * 100).toFixed(0)}%</title></line>`;
-  }
-
-  years.forEach((y, i) => {
-    const x = padX + i * nodeGap;
-    svg += `<circle cx="${x}" cy="${cy}" r="7" fill="${color}"></circle>`;
-    svg += `<text class="beat-node-label" x="${x}" y="${
-      cy + 26
-    }" text-anchor="middle">${y}</text>`;
-  });
-
-  svg += `</svg>`;
 
   const beatsHtml = story.arco
     .map((b) => {
@@ -411,7 +364,6 @@ function renderStorylineCard(cat, story) {
       <h3 class="storyline-title">${cat}</h3>
     </div>
     <p class="storyline-summary">${escapeHtml(story.resumen)}</p>
-    <div class="storyline-svg-wrap">${svg}</div>
     <div class="storyline-beats">${beatsHtml}</div>
     <div class="storyline-insight">
       <strong>Conclusiones</strong>
